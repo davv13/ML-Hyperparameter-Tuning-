@@ -1,6 +1,3 @@
-Titanic_dataset.xls/
-
+__pycache__/
 .venv/
-
-
-__pycache__/ 
+Titanic_dataset.xls
