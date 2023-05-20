@@ -1,21 +1,21 @@
-## **Hyperparameter Tuning Project**
+# **Hyperparameter Tuning Project**
 
 #### This project focuses on hyperparameter tuning for classification algorithms using the **Upper Confidence Bound (UCB)** algorithm. The goal is to find a good set of hyperparameters quickly by trying promising hyperparameters first. The project includes the implementation of hyperparameter tuning for the **Gradient Boosting Trees** (XGBoosting), **Support Vector Classifier**, and **Random Forest** algorithms.
 
 
-## **Table of Contents**
+### **Table of Contents**
 
-- ### [Project Structure](#project-structure)
-- ### [Dataset](#dataset)
-- ### [Dependencies](#dependencies)
-- ### [Installation](#installation)
-- ### [Usage](#usage)
-- ### [Upper Confidence Bound](#upperconfidencebound)
-- ### [Gradient Boosting Trees (XGBoost)](#XGboost)
-- ### [Support Vector Classifier](#SVC)
-- ### [Random Forest Classifier](#RFC)
-- ### [Results](#results)
-- ### [Contributions](#contributions)
+- #### [Project Structure](#project-structure)
+- #### [Dataset](#dataset)
+- #### [Dependencies](#dependencies)
+- #### [Installation](#installation)
+- #### [Usage](#usage)
+- #### [Upper Confidence Bound](#upperconfidencebound)
+- #### [Gradient Boosting Trees (XGBoost)](#XGboost)
+- #### [Support Vector Classifier](#SVC)
+- #### [Random Forest Classifier](#RFC)
+- #### [Results](#results)
+- #### [Contributions](#contributions)
 
 ## **Project Structure**
 
