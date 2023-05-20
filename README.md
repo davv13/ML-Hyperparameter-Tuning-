@@ -14,7 +14,7 @@
 - #### [Gradient Boosting Trees (XGBoost)](#XGboost)
 - #### [Support Vector Classifier](#SVC)
 - #### [Random Forest Classifier](#RFC)
-- [Results](#results)
+- #### [Results](#results)
 - #### [Contributions](#contributions)
 
 ### **Project Structure**
