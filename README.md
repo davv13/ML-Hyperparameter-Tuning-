@@ -5,19 +5,19 @@
 
 ### **Table of Contents**
 
-- #### [Project Structure](#project-structure)
-- #### [Dataset](#dataset)
-- #### [Dependencies](#dependencies)
-- #### [Installation](#installation)
-- #### [Usage](#usage)
-- #### [Upper Confidence Bound](#upperconfidencebound)
-- #### [Gradient Boosting Trees (XGBoost)](#XGboost)
-- #### [Support Vector Classifier](#SVC)
-- #### [Random Forest Classifier](#RFC)
-- #### [Results](#results)
-- #### [Contributions](#contributions)
+- [Project Structure](#project-structure)
+- [Dataset](#dataset)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Upper Confidence Bound](#upperconfidencebound)
+- [Gradient Boosting Trees (XGBoost)](#XGboost)
+- [Support Vector Classifier](#SVC)
+- [Random Forest Classifier](#RFC)
+- [Results](#results)
+- [Contributions](#contributions)
 
-### **Project Structure**
+### Project Structure
 
 #### The project has the following structure:
 
@@ -27,12 +27,12 @@
 - #### [SupportVectorClassifier_Random.ipynb](SupportVectorClassifier_Random.ipynb): Jupyter Notebook exploring the hyperparameter space of the Support Vector Classifier, applying hyperparameter tuning using the UCB algorithm, comparing with randomly chosen hyperparameter configurations, and evaluating the validation error.
 - #### [RandomForest_Random.ipynb](RandomForest_Random.ipynb): Jupyter Notebook exploring the hyperparameter space of the Random Forest classifier, applying hyperparameter tuning using the UCB algorithm, comparing with randomly chosen hyperparameter configurations, and evaluating the validation error.
 
-### **Dataset**
+### Dataset
 
 #### The dataset used in this project is the Titanic dataset, which contains information about passengers aboard the Titanic, including whether they survived or not. The dataset is analyzed in the [EDA_Titanic.ipynb](EDA_Titanic.ipynb) notebook. 
 #### You can access to the dataset by following this link 'https://www.kaggle.com/datasets/vinicius150987/titanic3?resource=download'.
 
-### **Dependencies**
+### Dependencies
 
 #### You can install the dependencies using the following command:
 
@@ -40,13 +40,13 @@
 pip install -r requirements.txt
 ```
 
-### **Installation**
+### Installation
 
 #### To get started with the project, clone the repository using the following command:
     git clone https://github.com/davv13/ML-Hyperparameter-Tuning-.git
 
 
-### **Usage**
+### Usage
 
 #### To perform hyperparameter tuning and evaluate the classification models, follow these steps:
 
@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 
 
-### **Upper Confidence Bound**
+### Upper Confidence Bound
 
 
 #### **The Upper Confidence Bound (UCB)** algorithm is a method for *balancing exploration* and *exploitation* in decision-making processes. Unlike approaches that randomly select actions, UCB adjusts its exploration-exploitation balance based on accumulated knowledge. 
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
 
 
-### **Gradient Boosting Trees (XGBoost)**
+### Gradient Boosting Trees (XGBoost)
 
 #### **Gradient Boosting Trees** is a powerful ensemble learning method that combines multiple weak predictive models, typically decision trees, to create a stronger predictive model. It works by iteratively training weak models on the residuals of the previous models, with each subsequent model focusing on minimizing the errors of the previous models.
 
@@ -120,7 +120,7 @@ pip install -r requirements.txt
 
 
 
-### **Support Vector Classifier**
+### Support Vector Classifier
 
 
 #### **Support Vector Classifier (SVC)** is a popular machine learning algorithm used for classification tasks. It constructs a hyperplane or a set of hyperplanes in a high-dimensional feature space to separate different classes of data points.
@@ -147,7 +147,7 @@ pip install -r requirements.txt
 
 
 
-### **Random Forest Classifier**
+### Random Forest Classifier
 
 #### Random Forest Classifier is an ensemble learning algorithm that combines multiple decision trees to make predictions. It creates a collection of decision trees and aggregates their predictions to produce a final prediction.
 
