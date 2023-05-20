@@ -14,7 +14,7 @@
 - #### [Gradient Boosting Trees (XGBoost)](#XGboost)
 - #### [Support Vector Classifier](#SVC)
 - #### [Random Forest Classifier](#RFC)
-- #### [Results](#results)
+- [Results](#results)
 - #### [Contributions](#contributions)
 
 ### **Project Structure**
@@ -177,7 +177,7 @@ pip install -r requirements.txt
 
 
 
-### **Results**
+### Results
 
 #### Each notebook provides a detailed exploration of the hyperparameter space, the best configuration of hyperparameters based on the UCB algorithm, comparison with randomly chosen hyperparameter configurations, and evaluation of the validation error. The notebooks allow you to easily identify the best-performing hyperparameter configurations for each algorithm.
 
