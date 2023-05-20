@@ -141,7 +141,7 @@ pip install -r requirements.txt
 
 7. #### **cache_size**: It sets the size of the kernel cache in megabytes. A larger cache size can speed up training but requires more memory. 
 
-### These hyperparameters control various aspects of the SVC algorithm, such as the regularization strength, the choice of kernel function, the complexity of the decision boundary, and additional options for probability estimates and memory usage. Tuning these hyperparameters can significantly impact the model's performance, and it involves finding the right combination to balance bias and variance and achieve good generalization on the given dataset.
+#### These hyperparameters control various aspects of the SVC algorithm, such as the regularization strength, the choice of kernel function, the complexity of the decision boundary, and additional options for probability estimates and memory usage. Tuning these hyperparameters can significantly impact the model's performance, and it involves finding the right combination to balance bias and variance and achieve good generalization on the given dataset.
 
 
 
